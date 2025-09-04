@@ -1,0 +1,42 @@
+2025-09-04T06:28:06.467Z [INFO] [backend:service] URL Shortener Microservice started on port 5000
+2025-09-04T06:28:19.539Z [ERROR] [backend:service] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: connect EHOSTUNREACH 20.244.56.144:80
+2025-09-04T06:28:36.467Z [ERROR] [backend:db] MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2025-09-04T06:28:39.864Z [ERROR] [backend:db] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:21.090Z [INFO] [backend:controller] Fetching all URLs for display
+2025-09-04T06:30:21.089Z [INFO] [backend:middleware] GET /api/urls - IP: ::ffff:127.0.0.1
+2025-09-04T06:30:21.136Z [INFO] [backend:controller] Fetching all URLs for display
+2025-09-04T06:30:21.136Z [INFO] [backend:middleware] GET /api/urls - IP: ::ffff:127.0.0.1
+2025-09-04T06:30:21.154Z [INFO] [backend:middleware] GET /api/urls - IP: ::ffff:127.0.0.1
+2025-09-04T06:30:21.154Z [INFO] [backend:controller] Fetching all URLs for display
+2025-09-04T06:30:21.164Z [INFO] [backend:controller] Fetching all URLs for display
+2025-09-04T06:30:21.163Z [INFO] [backend:middleware] GET /api/urls - IP: ::ffff:127.0.0.1
+2025-09-04T06:30:24.686Z [ERROR] [backend:middleware] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:24.771Z [ERROR] [backend:middleware] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:24.775Z [ERROR] [backend:controller] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:24.766Z [ERROR] [backend:middleware] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:24.768Z [ERROR] [backend:controller] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:24.773Z [ERROR] [backend:controller] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:25.100Z [ERROR] [backend:middleware] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:25.098Z [ERROR] [backend:controller] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:35.008Z [ERROR] [backend:controller] Failed to fetch URLs: Operation `urls.find()` buffering timed out after 10000ms
+2025-09-04T06:30:35.008Z [ERROR] [backend:controller] Failed to fetch URLs: Operation `urls.find()` buffering timed out after 10000ms
+2025-09-04T06:30:35.009Z [ERROR] [backend:controller] Failed to fetch URLs: Operation `urls.find()` buffering timed out after 10000ms
+2025-09-04T06:30:35.109Z [ERROR] [backend:controller] Failed to fetch URLs: Operation `urls.find()` buffering timed out after 10000ms
+2025-09-04T06:30:38.212Z [ERROR] [backend:controller] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:38.222Z [ERROR] [backend:middleware] GET /api/urls - 500 - 17059ms
+2025-09-04T06:30:38.244Z [ERROR] [backend:controller] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:38.247Z [ERROR] [backend:middleware] GET /api/urls - 500 - 17093ms
+2025-09-04T06:30:38.278Z [ERROR] [backend:controller] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:38.281Z [ERROR] [backend:middleware] GET /api/urls - 500 - 17145ms
+2025-09-04T06:30:38.294Z [ERROR] [backend:controller] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:38.298Z [ERROR] [backend:middleware] GET /api/urls - 500 - 17209ms
+2025-09-04T06:30:40.741Z [INFO] [backend:service] Shutting down server gracefully
+2025-09-04T06:30:41.345Z [ERROR] [backend:middleware] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:41.381Z [ERROR] [backend:middleware] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:41.430Z [ERROR] [backend:middleware] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:41.428Z [ERROR] [backend:middleware] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:30:43.838Z [ERROR] [backend:service] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:35:55.767Z [INFO] [backend:service] URL Shortener Microservice started on port 5000
+2025-09-04T06:35:59.036Z [ERROR] [backend:service] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid
+2025-09-04T06:36:25.778Z [ERROR] [backend:db] MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2025-09-04T06:36:28.993Z [ERROR] [backend:db] Logging failed: API call failed after 3 attempts. Last error: Authentication failed: given access code is invalid

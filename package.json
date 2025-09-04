@@ -1,0 +1,37 @@
+{
+  "name": "url-shortener-logger",
+  "version": "1.0.0",
+  "description": "Logging Middleware for URL Shortener Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "logging",
+    "middleware",
+    "url-shortener",
+    "api",
+    "monitoring"
+  ],
+  "author": "URL Shortener Developer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candidate/campus-hiring-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/candidate/campus-hiring-logger/issues"
+  },
+  "homepage": "https://github.com/candidate/campus-hiring-logger#readme"
+}
