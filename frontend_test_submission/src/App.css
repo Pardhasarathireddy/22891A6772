@@ -1,0 +1,112 @@
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient Background */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Main Form Styling */
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  animation: fadeIn 1s ease-out;
+}
+
+h4 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+input,
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover,
+button:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+/* Button Styling */
+.MuiButton-root {
+  background-color: #2575fc;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.MuiButton-root:hover {
+  background-color: #6a11cb;
+}
+
+/* Snackbar Animation */
+.MuiSnackbar-root {
+  animation: slideUp 0.5s ease-out;
+}
+
+/* Fade-in animation for the form */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide-up effect for Snackbar */
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Text Field Styling */
+.MuiTextField-root {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Success message and shortened URL */
+.shortened-url {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.shortened-url a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.shortened-url a:hover {
+  text-decoration: underline;
+}
